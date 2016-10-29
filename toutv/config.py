@@ -31,13 +31,3 @@ USER_AGENT = 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) Ap
 HEADERS = {
     'User-Agent': USER_AGENT
 }
-TOUTV_PLAYLIST_URL = 'http://api.radio-canada.ca/validationMedia/v1/Validation.html'
-TOUTV_PLAYLIST_PARAMS = {
-    'appCode': 'thePlatform',
-    'deviceType': 'iphone4',
-    'connectionType': 'wifi',
-    'output': 'json'
-}
-TOUTV_JSON_URL_PREFIX = 'https://api.tou.tv/v1/toutvapiservice.svc/json/'
-TOUTV_BASE_URL = 'http://ici.tou.tv'
-EMISSION_THUMB_URL_TMPL = 'http://images.tou.tv/w_400,c_scale,r_5/v1/emissions/16x9/{}.jpg'
